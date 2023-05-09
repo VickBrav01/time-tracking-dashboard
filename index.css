@@ -42,16 +42,13 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 0.8rem;
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
   height: 11rem;
   width: 7rem;
   padding: 1rem;
   background-color: hsl(246, 80%, 60%);
 }
-.item1 .bottom {
-  border-radius: 0 0 8px 8px;
-  margin-top: -8px;
-}
+
 .item1 .bottom {
   padding: 1rem;
   width: 7rem;
